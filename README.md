@@ -17,8 +17,11 @@ CTRL+C to quit..
 
 - spacy
   - model: "en_core_web_trf"; python -m spacy download "en_core_web_trf"
-    "en_core_web_trf" is needed at least to extract information from Gottfried Wilhelm Leibniz's Wikipedia-page
+    it is needed at least to extract information from Gottfried Wilhelm Leibniz's Wikipedia-page
 - spacy_sentence_bert
 - wikipediaapi
 - dateparser
 
+## Picture of the program running
+
+![QA](https://github.com/tickBit/Poor-mans-QA/assets/61118857/1d116cd5-283e-4de0-9456-0f98b616b109)
