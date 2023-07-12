@@ -6,7 +6,7 @@ The user can ask about the following:
 - When was person born?
 - What field was the person on?
 
-SpaCy's similarity method is used, so the questions don't have to be exactly in only one format. In addition, for the second questions 3 examples are used.
+SpaCy's similarity method is used, so the questions don't have to be exactly in only one format. In addition, for the second question 3 examples are used.
 
 ## Some instructions
 
