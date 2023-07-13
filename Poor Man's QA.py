@@ -169,7 +169,7 @@ while True:
     full_name = get_full_name(sent0)
 
     while True:
-        question = input("Ask a question about the person with his/her name: ")
+        question = input("Ask a question about the person: ")
         if question.strip() == "": break
 
         # find similar semantic similarity between the question and the question in the list
