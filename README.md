@@ -6,7 +6,7 @@ The user can ask about the following:
 - When was person born?
 - What field was the person on?
 
-SpaCy's similarity method is used, so the questions don't have to be exactly in only one format. In addition, for the second question 3 examples are used.
+SpaCy's similarity method is used, so the questions don't have to be exactly in only one form. In addition, for the second question 3 examples are used.
 
 ## Some instructions
 
@@ -24,4 +24,5 @@ CTRL+C to quit..
 
 ## Picture of the program running
 
-![QA](https://github.com/tickBit/Poor-mans-QA/assets/61118857/1d116cd5-283e-4de0-9456-0f98b616b109)
+![QA2](https://github.com/tickBit/Poor-mans-QA/assets/61118857/6cee8bd8-8cf4-4e6c-8d2f-126a1c12a132)
+
