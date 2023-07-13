@@ -105,13 +105,13 @@ def get_profession(sent0):
                     for tok in child.subtree:
                         if tok.dep_ == 'acl': break
                         if tok.pos_ == "ADJ": skip = False
-                        # if previous token is ADP, skip the none
+                        
                         if tok.dep_ == 'poss':
                             skip = True
                         if tok.pos_ == 'NOUN' and skip == False:
                             professions.append(tok.text)
 
-    # compuound for example "computer" and "scientist" to "computer scientist"
+    # compound for example "computer" and "scientist" to "computer scientist"
     for p in professions:
         for token in sent0:
             if token.dep_ == "amod" and token.head.text == p:
